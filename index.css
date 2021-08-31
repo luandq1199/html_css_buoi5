@@ -1,0 +1,65 @@
+.nav_home{
+    position: fixed !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+.carousel-item .content-banner{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    right: 5%;
+    text-align: justify;
+    
+}
+.content-banner h4 {
+    color: green;
+    line-height: 10px;
+    font-weight: 500;
+    line-height: 35px;
+}
+.item-card{
+    padding: 50px 0;
+}
+.item-card .card .card-img-top {
+    padding: 42px 50px;
+    height: 290px;
+} 
+.first-features{
+    padding: 100px 0;
+}
+.first-features h2{
+    padding-top: 70px;
+    font-size: 45px;
+}
+.first-features p{
+    color: #5a5a5a
+}
+.footer{
+    background: aliceblue;
+}
+.footer-content{
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 576px){
+    .content-banner h2{
+        font-size: 20px;
+    }
+    .content-banner h4{
+        font-size: 13px;
+    }
+    .content-banner button{
+        height: 40px;
+    }
+    .item-card .card .card-img-top{
+        padding: 11px 50px ;
+        
+    }
+}
+@media screen and (min-width: 768px) {
+    .item-card .card .card-img-top{
+        padding: 42px 15px;
+    }
+}
